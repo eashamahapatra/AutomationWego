@@ -18,7 +18,7 @@ public class LaunchTestWego extends BaseClass{
 		Assert.assertTrue(true, driver.getTitle());
 		
 		logger.pass("Launch Success");
-		logger.pass("Page Title Validation done");
+		logger.pass("**Page Title Validation done**");
 	}
 
 }
